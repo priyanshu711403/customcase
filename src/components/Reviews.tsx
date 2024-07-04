@@ -2,7 +2,6 @@
 import { HTMLAttributes, useEffect, useRef, useState } from "react";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 import { useInView } from "framer-motion";
-import { split } from "postcss/lib/list";
 import { cn } from "@/lib/utils";
 import Phone from "./Phone";
 

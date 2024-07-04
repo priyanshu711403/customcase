@@ -3,7 +3,7 @@ import MaxWidthWrapper from "./MaxWidthWrapper";
 import { Icons } from "./Icons";
 import { Check, Star } from "lucide-react";
 import Reviews from "./Reviews";
-export function ReviewSection({}) {
+const ReviewSection = () => {
    return (
       <section className="bg-slate-100 grainy-dark py-24">
          <MaxWidthWrapper className="flex flex-col items-center gap-16 sm:gap-32">
@@ -78,4 +78,5 @@ export function ReviewSection({}) {
          </div>
       </section>
    );
-}
+};
+export default ReviewSection;

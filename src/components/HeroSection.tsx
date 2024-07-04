@@ -2,7 +2,7 @@ import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import Phone from "@/components/Phone";
 import { Check, Star } from "lucide-react";
 import React from "react";
-export function HeroSection({}) {
+const HeroSection = () => {
    return (
       <section>
          <MaxWidthWrapper className="pb-24 pt-10 lg:grid lg:grid-cols-3 sm:pb-32 lg:gap-x-0 xl:gap-x-8 lg:pt-24 xl:pt-32 lg:pb-52">
@@ -96,4 +96,5 @@ export function HeroSection({}) {
          </MaxWidthWrapper>
       </section>
    );
-}
+};
+export default HeroSection;
